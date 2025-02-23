@@ -1,0 +1,192 @@
+body {
+    background-color: #fffaf5;
+}
+
+body {
+    font-family: "Gaegu", serif;
+    margin: 0;
+}
+
+/*header stuff here*/
+header {
+    background-color: #f2c9dc;
+    padding: 1rem 10px;
+}
+
+header span {
+    color: #1c3b63;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+/*navigation stuff here*/
+nav {
+    background-color: #80b4bf;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #1c3b63;
+    font-weight: 700;
+}
+
+nav li.active a {
+    background-color: #1c3b63;
+    color: #f2c9dc;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+/*main stuff here*/
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #1c3b63;
+}
+
+main h2 {
+    color: #bf808c;
+    margin: .2rem;
+}
+
+main p {
+    margin: 0;
+    color: #1c3b63;
+}
+
+main ol {
+    padding: 2rem 30px;
+    background-color: #BDD9B0;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1px solid #1c3b63;
+    width: 200px
+}
+
+main dl dt {
+    color: #457d36;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+main dl dd {
+    color: #1c3b63;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+
+main ul {
+    list-style-type: circle;
+    color: #1c3b63
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main strong {
+    font-weight: 700;
+    color: #1c3b63;
+}
+
+main em {
+    font-weight: 300;
+    color: #1c3b63;
+}
+
+main address {
+    font-style: normal;
+    background-color: #BDD9B0;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 1px solid #1c3b63;
+    width: 200px;
+}
+
+main a {
+    color: #1c3b63;
+}
+
+main a:hover {
+    color: rgb(191, 128, 140);
+}
+
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+    color: #1c3b63
+}
+
+figure.staff {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+figure.staff img {
+    width: 100%;
+    height: auto;
+}
+
+figure.staff figcaption {
+    text-align: center;
+    font-size: .75rem;
+    color: #1c3b63
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #1c3b63
+}
+
+/*footer stuff here*/
+footer {
+    background-color: #80b4bf;
+    text-align: center;
+    padding: 1rem 0;
+
+}
+
+footer p {
+    margin: 0;
+    font-size: .8rem;
+    color: #333;
+    letter-spacing: 3px;
+}
